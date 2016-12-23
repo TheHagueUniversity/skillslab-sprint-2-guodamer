@@ -1,0 +1,457 @@
+@charset "utf-8";
+
+/*------------------------------------------------
+            Typography
+--------------------------------------------------*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #464545;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #464545;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #4e4e4e;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    color: #464545;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+a:link {
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/*------------------------------------------------
+            Introduction
+--------------------------------------------------*/
+
+.introduction {
+    background: rgba(247, 246, 244, 0.6);
+    height: 400px;
+    text-align: center;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.introduction h1 {
+    text-transform: uppercase;
+    letter-spacing: -5px;
+}
+
+p.hello {
+    padding-top: 56px;
+    line-height: 80px;
+    vertical-align: middle;
+    color: #ACA9A0;
+    font-size: 120px;
+    font-weight: 900;
+    text-shadow: 1px 0px 1px #787777;
+}
+
+p.small {
+    line-height: 50px;
+    vertical-align: middle;
+    font-size: 80px;
+    color: #827C7D;
+}
+
+p.name {
+    line-height: 80px;
+    vertical-align: middle;
+    color: #F7FE2E;
+    font-size: 120px;
+    font-weight: 900;
+    text-shadow: 1px 0px 1px #787777;
+}
+
+
+/*------------------------------------------------
+            Navigation
+--------------------------------------------------*/
+
+.affix {
+    position: fixed;
+    top: 0;
+}
+
+.nav .active a {
+    background: #F7FE2E;
+    opacity: 1;
+    color: #000000;
+}
+
+.navbar {
+    background: #F8F6F2;
+    min-height: 34px;
+    border-radius: 0px;
+    width: 100%;
+    text-align: center;
+    z-index: 40;
+    margin: 0px;
+    -webkit-box-shadow: 0px 0px 7px 0px rgba(129, 129, 129, 0.67);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(129, 129, 129, 0.67);
+    box-shadow: 0px 0px 7px 0px rgba(129, 129, 129, 0.67);
+}
+
+.navbar-nav {
+    margin-top: 4px;
+    float: none;
+    display: inline-block;
+}
+
+.navbar-nav li a {
+    padding: 6px 30px 6px 30px;
+    color: #999999;
+}
+
+.navbar-nav li a:hover {
+    background: #e6e5e1;
+    opacity: 1;
+    color: #000000;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #4a4949;
+}
+
+
+/*------------------------------------------------
+            Content
+--------------------------------------------------*/
+
+.content-header {
+    text-align: center;
+}
+
+
+/*------------------------------------------------
+            Menu
+--------------------------------------------------*/
+
+#about {
+    padding-top: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #EDECEC;
+    position: relative;
+    z-index: 15;
+    text-align: center;
+}
+
+#design {
+    padding-top: 60px;
+    background-color: #F7F6F4;
+    border-top: 1px solid #EDECEC;
+    position: relative;
+    z-index: 15;
+    text-align: center;
+}
+
+#projects {
+    padding-top: 60px;
+    background-color: #ffffff;
+    border-top: 1px solid #EDECEC;
+    position: relative;
+    z-index: 15;
+    text-align: center;
+}
+
+#contact {
+    padding-top: 60px;
+    background-color: #F7F6F4;
+    border-top: 1px solid #EDECEC;
+    margin-top: -13px;
+    position: relative;
+    z-index: 15;
+}
+
+
+/*------------------------------------------------
+            Footer
+--------------------------------------------------*/
+
+.page-footer {
+    padding: 60px 0px 60px 0px;
+    background: #ffffff;
+    text-align: center;
+    position: relative;
+}
+
+.page-footer-powered {
+    margin: 60px 0 30px 0;
+    padding: 15px 0 15px 0;
+    background-color: #F7F6F4;
+}
+
+.page-footer-powered-img-scaled {
+    height: 75px;
+}
+
+
+/*------------------------------------------------
+            Feedback 
+--------------------------------------------------*/
+
+#submit {
+    color: #000000;
+    height: 40px;
+    border: solid 1px #dcddd7;
+    background: #ecf2f5;
+    font-size: 12;
+    font-weight: bolder;
+    float: left;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+}
+
+#textarea {
+    background-color: #fafcd3;
+    border: solid 1px #dcddd7;
+    font-size: 14px;
+    height: 180px;
+    width: 100%;
+}
+
+#textarea:focus {
+    background-color: #ffffff;
+}
+
+#form {
+    overflow: auto;
+    border: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    display: table;
+    width: 100%;
+}
+
+
+/*------------------------------------------------
+            Contacts article
+--------------------------------------------------*/
+
+.contacts-group {
+    width: 50%;
+    margin: 20px 25% 20px 25%;
+}
+
+.contacts-group-text {
+    width: 50%;
+    margin: 20px 25% 20px 25%;
+    font-weight: 400;
+    font-size: 18px;
+    color: #464545;
+}
+
+
+/*------------------------------------------------
+                Design article
+--------------------------------------------------*/
+
+.design-header {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    padding: 20px 0px 20px 0px;
+    text-align: justify;
+}
+
+.design-section-left-position {
+    float: left;
+    width: 25%;
+    margin: 0% 0% 0% 25%;
+}
+
+.design-section-right-position {
+    float: left;
+    width: 25%;
+    margin: 0% 25% 0% 0%;
+}
+
+.design-figure-left-position {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    padding-bottom: 10px;
+    border: thin silver solid;
+}
+
+.design-scaled {
+    width: 100%;
+}
+
+.design-footer {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    clear: both;
+    padding: 20px 0px 20px 0px;
+}
+
+
+/*------------------------------------------------
+                About article
+--------------------------------------------------*/
+
+.about-article {
+    margin: 0% 0% 0% 0%;
+    background-color: #ffffff;
+}
+
+.about-header {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    padding: 20px 0px 20px 0px;
+}
+
+.about-section {
+    float: left;
+    text-align: justify;
+    width: 35%;
+    margin: 0% 0% 0% 25%;
+    padding-right: 3%;
+}
+
+.about-section-full-width {
+    margin: 0% 0% 0% 0%;
+    float: left;
+    width: 80%;
+}
+
+.about-aside {
+    width: 15%;
+    margin: 0% 25% 0% 0%;
+    float: left;
+}
+
+.about-footer {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    clear: both;
+    text-align: justify;
+    text-align-last: center;
+    padding: 20px 0px 20px 0px;
+}
+
+.about-figure-left-position {
+    float: left;
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0;
+    padding-bottom: 10px;
+    border: thin silver solid;
+}
+
+.about-scaled {
+    width: 100%;
+}
+
+.about-ul {
+    text-indent: 5px;
+}
+
+em {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+/*------------------------------------------------
+            Projects article
+--------------------------------------------------*/
+
+.projects-article {}
+
+.projects-header {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    padding: 20px 0px 20px 0px;
+}
+
+.projects-footer {
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    clear: both;
+    padding: 20px 0px 30px 0px;
+}
+
+.projects-section {
+    float: left;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+    padding: 20px 0px 20px 0px;
+    text-indent: 0px;
+    text-align: justify;
+    text-align-last: left;
+}
+
+.projects-figure-bottom-text {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent: 0px;
+    width: 50%;
+    margin: 0% 25% 0% 25%;
+}
+
+img.projects-img-scaled {
+    width: 75%;
+    padding-top: 15px;
+}
+
+.projects-figcaption {
+    padding: 10px;
+}
+
+.projects-idea {
+    margin: 0% 15% 0 15%;
+    font-style: italic;
+    text-align: justify;
+    text-align-last: left;
+}
+
+
+/*------------------------------------------------
+            Google Map
+--------------------------------------------------*/
+
+.google-map {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: 0px;
+}
+
+.map-area {
+    height: 450px;
+}
