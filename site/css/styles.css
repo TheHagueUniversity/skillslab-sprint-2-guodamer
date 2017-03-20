@@ -9,7 +9,6 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #464545;
-    /* border: thin red solid; */
 }
 
 h2 {
@@ -55,7 +54,6 @@ a:link {
     text-align: center;
     text-transform: uppercase;
     letter-spacing: -5px;
-    /* border: thin red solid; */
 }
 
 .hello {
@@ -65,7 +63,6 @@ a:link {
     font-size: 120px;
     font-weight: 900;
     text-shadow: 1px 0px 1px #787777;
-    /* border: thin red solid; */
 }
 
 .small {
@@ -73,7 +70,6 @@ a:link {
     vertical-align: middle;
     font-size: 80px;
     color: #827C7D;
-    /* border: thin red solid; */
 }
 
 .name {
@@ -84,7 +80,6 @@ a:link {
     font-weight: 900;
     text-shadow: 1px 0px 1px #787777;
     padding-bottom: 100px;
-    /* border: thin red solid; */
 }
 
 
@@ -99,7 +94,6 @@ a:link {
     margin-right: 25%;
     padding: 0px 0px 30px 5%;
     text-align: justify;
-    /* border: thin red solid; */
 }
 
 .nav-menu {
@@ -110,7 +104,6 @@ a:link {
     box-shadow: 0px 0px 7px 0px rgba(129, 129, 129, 0.67);
     padding-top: 5px;
     padding-bottom: 5px;
-    /* border: thin red solid; */
 }
 
 .nav-div-active {
@@ -118,14 +111,12 @@ a:link {
     float: left;
     text-align: center;
     width: 22%;
-    /* border: thin red solid; */
 }
 
 .nav-div-passive {
     float: left;
     text-align: center;
     width: 22%;
-    /* border: thin red solid; */
 }
 
 .nav-active {
@@ -309,7 +300,6 @@ a:link {
 .about-article {
     margin: 0% 0% 0% 0%;
     background-color: #ffffff;
-    /* border: thin red solid; */
 }
 
 .about-header {
@@ -317,7 +307,6 @@ a:link {
     text-align: center;
     margin: 0% 25% 0% 25%;
     padding: 20px 0px 20px 0px;
-    /* border: thin red solid; */
 }
 
 .about-section {
@@ -326,20 +315,17 @@ a:link {
     width: 30%;
     margin: 0% 0% 0% 25%;
     padding-right: 3%;
-    /* border: thin red solid; */
 }
 
 .about-section-full-width {
     margin: 0% 0% 0% 0%;
     float: left;
     width: 80%;
-    /* border: thin red solid; */
 }
 
 .about-aside {
     width: 17%;
     float: left;
-    /* border: thin red solid; */
 }
 
 .about-footer {
@@ -349,7 +335,6 @@ a:link {
     text-align: justify;
     text-align-last: center;
     padding: 20px 0px 20px 0px;
-    /* border: thin red solid; */
 }
 
 .about-figure-left-position {
@@ -361,12 +346,10 @@ a:link {
     text-indent: 0;
     padding-bottom: 10px;
     border: thin silver solid;
-    /* border: thin red solid; */
 }
 
 .figcaption-position {
     margin-top: 10px;
-    /* border: thin red solid; */
 }
 
 .about-scaled {
