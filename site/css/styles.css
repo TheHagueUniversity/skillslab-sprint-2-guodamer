@@ -9,6 +9,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     color: #464545;
+    /* border: thin red solid; */
 }
 
 h2 {
@@ -51,41 +52,39 @@ a:link {
 
 .introduction {
     background: rgba(247, 246, 244, 0.6);
-    height: 400px;
     text-align: center;
-    margin: 0 auto;
-    overflow: hidden;
-}
-
-.introduction h1 {
     text-transform: uppercase;
     letter-spacing: -5px;
+    /* border: thin red solid; */
 }
 
-p.hello {
-    padding-top: 56px;
-    line-height: 80px;
+.hello {
+    height: 100px;
     vertical-align: middle;
     color: #ACA9A0;
     font-size: 120px;
     font-weight: 900;
     text-shadow: 1px 0px 1px #787777;
+    /* border: thin red solid; */
 }
 
-p.small {
-    line-height: 50px;
+.small {
+    height: 43px;
     vertical-align: middle;
     font-size: 80px;
     color: #827C7D;
+    /* border: thin red solid; */
 }
 
-p.name {
-    line-height: 80px;
+.name {
+    height: 100px;
     vertical-align: middle;
     color: #F7FE2E;
     font-size: 120px;
     font-weight: 900;
     text-shadow: 1px 0px 1px #787777;
+    padding-bottom: 100px;
+    /* border: thin red solid; */
 }
 
 
@@ -93,51 +92,61 @@ p.name {
             Navigation
 --------------------------------------------------*/
 
-.affix {
-    position: fixed;
-    top: 0;
-}
-
-.nav .active a {
-    background: #F7FE2E;
-    opacity: 1;
-    color: #000000;
-}
-
-.navbar {
+.nav-menu-background {
     background: #F8F6F2;
-    min-height: 34px;
-    border-radius: 0px;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    padding: 0px 0px 30px 5%;
+    text-align: justify;
+    /* border: thin red solid; */
+}
+
+.nav-menu {
+    background: #F8F6F2;
     width: 100%;
-    text-align: center;
-    z-index: 40;
-    margin: 0px;
     -webkit-box-shadow: 0px 0px 7px 0px rgba(129, 129, 129, 0.67);
     -moz-box-shadow: 0px 0px 7px 0px rgba(129, 129, 129, 0.67);
     box-shadow: 0px 0px 7px 0px rgba(129, 129, 129, 0.67);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* border: thin red solid; */
 }
 
-.navbar-nav {
-    margin-top: 4px;
-    float: none;
-    display: inline-block;
+.nav-div-active {
+    background: #F7FE2E;
+    float: left;
+    text-align: center;
+    width: 22%;
+    /* border: thin red solid; */
 }
 
-.navbar-nav li a {
-    padding: 6px 30px 6px 30px;
-    color: #999999;
+.nav-div-passive {
+    float: left;
+    text-align: center;
+    width: 22%;
+    /* border: thin red solid; */
 }
 
-.navbar-nav li a:hover {
-    background: #e6e5e1;
-    opacity: 1;
+.nav-active {
+    font-size: 20px;
+    font-weight: 300;
     color: #000000;
 }
 
-nav a {
-    font-size: 18px;
+.nav-passive {
+    font-size: 20px;
     font-weight: 300;
-    color: #4a4949;
+    color: #999999;
+}
+
+.nav-div-passive:hover {
+    background: #e6e5e1;
+    color: #000000;
+}
+
+.nav-div-passive a:hover {
+    color: #000000;
 }
 
 
@@ -147,47 +156,6 @@ nav a {
 
 .content-header {
     text-align: center;
-}
-
-
-/*------------------------------------------------
-            Menu
---------------------------------------------------*/
-
-#about {
-    padding-top: 60px;
-    background-color: #ffffff;
-    border-top: 1px solid #EDECEC;
-    position: relative;
-    z-index: 15;
-    text-align: center;
-}
-
-#design {
-    padding-top: 60px;
-    background-color: #F7F6F4;
-    border-top: 1px solid #EDECEC;
-    position: relative;
-    z-index: 15;
-    text-align: center;
-}
-
-#projects {
-    padding-top: 60px;
-    background-color: #ffffff;
-    border-top: 1px solid #EDECEC;
-    position: relative;
-    z-index: 15;
-    text-align: center;
-}
-
-#contact {
-    padding-top: 60px;
-    background-color: #F7F6F4;
-    border-top: 1px solid #EDECEC;
-    margin-top: -13px;
-    position: relative;
-    z-index: 15;
 }
 
 
@@ -229,12 +197,31 @@ nav a {
     margin: 0% 25% 0% 25%;
 }
 
-#textarea {
+#form-contacts {
+    background-color: #fafcd3;
+    border: solid 1px #dcddd7;
+    font-size: 14px;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#form-order {
+    background-color: #fafcd3;
+    border: solid 1px #dcddd7;
+    font-size: 14px;
+    height: 70px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#form-comments {
     background-color: #fafcd3;
     border: solid 1px #dcddd7;
     font-size: 14px;
     height: 180px;
     width: 100%;
+    margin-bottom: 15px;
 }
 
 #textarea:focus {
@@ -322,32 +309,37 @@ nav a {
 .about-article {
     margin: 0% 0% 0% 0%;
     background-color: #ffffff;
+    /* border: thin red solid; */
 }
 
 .about-header {
     width: 50%;
+    text-align: center;
     margin: 0% 25% 0% 25%;
     padding: 20px 0px 20px 0px;
+    /* border: thin red solid; */
 }
 
 .about-section {
     float: left;
     text-align: justify;
-    width: 35%;
+    width: 30%;
     margin: 0% 0% 0% 25%;
     padding-right: 3%;
+    /* border: thin red solid; */
 }
 
 .about-section-full-width {
     margin: 0% 0% 0% 0%;
     float: left;
     width: 80%;
+    /* border: thin red solid; */
 }
 
 .about-aside {
-    width: 15%;
-    margin: 0% 25% 0% 0%;
+    width: 17%;
     float: left;
+    /* border: thin red solid; */
 }
 
 .about-footer {
@@ -357,6 +349,7 @@ nav a {
     text-align: justify;
     text-align-last: center;
     padding: 20px 0px 20px 0px;
+    /* border: thin red solid; */
 }
 
 .about-figure-left-position {
@@ -368,10 +361,20 @@ nav a {
     text-indent: 0;
     padding-bottom: 10px;
     border: thin silver solid;
+    /* border: thin red solid; */
+}
+
+.figcaption-position {
+    margin-top: 10px;
+    /* border: thin red solid; */
 }
 
 .about-scaled {
     width: 100%;
+}
+
+.about-scaled-auto {
+    width: auto;
 }
 
 .about-ul {
@@ -392,6 +395,7 @@ em {
 
 .projects-header {
     width: 50%;
+    text-align: center;
     margin: 0% 25% 0% 25%;
     padding: 20px 0px 20px 0px;
 }

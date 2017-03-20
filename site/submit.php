@@ -1,10 +1,9 @@
 <?php
 
-$information = "no message";
-if($_POST["information"] && stripslashes($_POST["information"]) != " Your information, order and comments ... " ) {
+if($_POST["form-contacts"] && $_POST["form-order"] && $_POST["form-comments"]) {
     $to      = 'guoda.merkyte@gmail.com';
     $subject = 'Submitted from UxGuru.lt, '.date("Y-m-d H:i:s");
-    $message = stripslashes($_POST["information"]);
+    $message = stripslashes($_POST["form-contacts"]).' - '.stripslashes($_POST["form-order"]).' - '.stripslashes($_POST["form-comments"]);
     $headers = 'From: uxrult@uxguru.lt' . "\r\n" .
     'Reply-To: uxrult@uxguru.lt' . "\r\n" .
     'X-Mailer: PHP/' . phpversion();
